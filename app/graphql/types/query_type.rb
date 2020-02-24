@@ -1,16 +1,12 @@
 module Types
-  class QueryType < GraphQL::Schema::Object
-    description "The query root of this schema"
+  class QueryType < BaseObject
+    # queries are just represented as fields
+    # `all_links` is automatically camelcased to `allLinks`
+    field :all_links, [LinkType], null: false
 
-    # First describe the field signature:
-    field :post, PostType, null: true do
-      description "Find a post by ID"
-      argument :id, ID, required: true
-    end
-
-    # Then provide an implementation:
-    def post(id:)
-      Post.find(id)
+    # this method is invoked, when `all_link` fields is being resolved
+    def all_links
+      Link.all
     end
   end
 end

@@ -4,10 +4,10 @@ Style/Documentation:
 Style/FrozenStringLiteralComment:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: false
 
 Style/StringLiterals:
@@ -17,4 +17,19 @@ Style/SymbolArray:
   Enabled: false
 
 Bundler/OrderedGems:
+  Enabled: false
+
+Style/TrailingCommaInArguments:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
   Enabled: false
