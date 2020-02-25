@@ -25,4 +25,8 @@ I am gonna follow https://www.howtographql.com/graphql-ruby/0-introduction/
 2. Add the type for the model
 3. Make a query type
 3. Build mutation for this type
-4. Restart the server.
+
+# How to run tests
+1. Run everything: `bundle exec rails test`
+2. Run a file: `rails test <file_path>`
+3. Run a test case by line number: `rails test <file_path>:<line_number>`

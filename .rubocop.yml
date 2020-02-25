@@ -33,3 +33,18 @@ Style/HashTransformKeys:
 
 Style/HashTransformValues:
   Enabled: false
+
+Style/RescueStandardError:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
