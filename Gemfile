@@ -21,11 +21,12 @@ gem 'jbuilder', '~> 2.7'
 # gem 'redis', '~> 4.0'
 # GraphQL
 gem 'graphql', '1.9.17'
+gem 'graphql-query-resolver'
 gem 'graphiql-rails', '1.7.0', group: :development
-
+gem 'search_object'
+gem 'search_object_graphql'
 # Rubocop
 gem 'rubocop', require: false
-
 # password
 gem 'bcrypt', '~> 3.1.13'
 

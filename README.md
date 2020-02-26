@@ -20,11 +20,17 @@ Or define them in `app/graphql/types/`
 # Fuck the tutorial above. Nothing works.
 I am gonna follow https://www.howtographql.com/graphql-ruby/0-introduction/
 
-# API development routine
-1. Create a model (resource)
+# API development guide
+
+## Adding new API
+1. Create a model (resource), and migrate
 2. Add the type for the model
 3. Make a query type
-3. Build mutation for this type
+4. Build mutation for this type
+
+## Adding new field
+1. Change model
+2. Add new field in object type
 
 # How to run tests
 1. Run everything: `bundle exec rails test`
